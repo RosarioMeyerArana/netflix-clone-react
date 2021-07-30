@@ -1,7 +1,7 @@
 .banner{
 color: white !important;
 object-fit: contain !important;
-height: 448px !important;
+height: 400px !important;
 }
 
 .banner__contents{
@@ -44,4 +44,14 @@ height: 448px !important;
     color: black;
     background-color: #e6e6e6;
     transition: all 0.3s;
+}
+
+.banner__fadeBottom{
+    height: 13.5rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
 }
